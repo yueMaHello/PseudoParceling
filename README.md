@@ -1,4 +1,4 @@
-# PseudoParceling
+# Pseudo Parceling
 The purpose of 'pseudo parceling' is to split an irregular large parcel into several small ones with equal size. 
 Since there is no built-in function of Postgres, I created this script to solve this problem.
 
