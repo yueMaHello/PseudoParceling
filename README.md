@@ -8,8 +8,9 @@ You may want to use QGIS to connect to Postgres database so that you can see the
 
 ### How the algorithm works:
 I didn't find a simple algorithm to do it. I just created my own algorithm based on my math skill. 
-The big parcel will be divided vertically then adjust the splitted line to make sure the area is correct.
-Then horizontally cut this new parcel into x-pieces. Also, the horizontal line is adjusted little by little to meet the area requirement.
+First, The big parcel will be divided vertically by a line. Then, adjust the vertical splitted line to make sure the area is correct.
+After that we need to horizontally cut this new vertical parcel into x-pieces using several lines. Also, each horizontal line is adjusted little by little to meet the area requirement.
+There is a for loop to start next vertically cutting process until it couldn't be cut any more. 
 
 
 
